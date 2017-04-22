@@ -1,0 +1,87 @@
+ html {
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+ }
+ 
+ body {
+   position: relative;
+   background-color: #455A64;
+ }
+ 
+ .parallaxPic {
+   /* Set a specific height */
+   min-height: 300px;
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+ #image1 {
+   background-image: url("https://images8.alphacoders.com/403/403441.gif");
+ }
+ 
+ #image2 {
+   background-image: url("http://i.huffpost.com/gen/4784786/images/o-CODING-facebook.jpg");
+ }
+ 
+ #image3 {
+   background-image: url("http://i.imgur.com/oI0XcI9.jpg");
+ }
+ 
+ #about {
+   padding-top: 100px;
+   padding-left: 25px;
+   padding-right: 25px;
+   height: 500px;
+   color: #fff;
+   background-color: #546E7A;
+ }
+ 
+ #portfolio {
+   padding-top: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
+   color: #fff;
+   background-color: #78909C;
+ }
+.bg-inverse{
+  background-color: #455A64 !important;
+}
+ #contact {
+   padding-top: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
+   height: 500px;
+   color: #fff;
+   background-color: #90A4AE;
+ }
+ 
+ .web {
+   background-color: #263238;
+   height: 100px;
+   padding-top: 25px;
+ }
+ 
+ #author {
+   font-family: Monospace;
+   color: white
+ }
+ 
+ #footer {
+   border-radius: 0px;
+   padding: 15px 0px 0px 0px;
+   margin-bottom: 0;
+ }
+ 
+ a {
+   color: white;
+ }
+ 
+ #systemallica {
+   color: #b6c4e3;
+ }

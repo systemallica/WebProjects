@@ -1,0 +1,28 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+  background-color: #2286c3;
+  color: white;
+  margin-bottom: 60px;
+}
+#title{
+  margin-top:30px;  
+  font-family: Monospace;
+}
+.container{
+  margin-top: 100px;
+}
+#footer{
+  color:white;
+  padding: 15px 0px 0px 0px;
+  margin-bottom: 0;   
+  background-color: #455A64;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: Monospace;
+  /* Set the fixed height of the footer here */
+  line-height: 30px; /* Vertically center the text there */
+}

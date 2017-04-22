@@ -1,0 +1,46 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+#title{
+  font-family: Monospace;
+}
+.cardt{
+  border: 3px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=text] {
+    width: 190px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698956-icon-111-search-128.png');
+    background-position: 1px 5px; 
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 90%;
+}
+
+#footer{
+  color:black;
+  padding: 15px 0px 0px 0px;
+  margin-bottom: 0;   
+  background-color: #dfded9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: Monospace;
+  /* Set the fixed height of the footer here */
+  line-height: 30px; 
+}
+
+#random{
+  margin-bottom: 100px;
+}

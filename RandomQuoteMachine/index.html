@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Felipa">
+
+  <script src="https://use.fontawesome.com/8e3630197f.js"></script>
+  <script src="https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">    
+  <script type="text/javascript" src="scripts.js"></script>
+  
+  
+</head>
+ 
+<body>
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="text-center mt-5 col-12">
+        <h1 id="title">
+          Random Quote Machine
+        </h1>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div id="quotebox" style="background-color: #64b5f6; border-color: #64b5f6;" class="card  col-md-6 col-sm-12 mb-3 text-center">
+        <div class="card-block">
+          <blockquote class="card-blockquote">
+            <i class="fa fa-quote-left"></i>
+            <span id="quote">To live is to die.</span>    
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+          <footer class="text-right" id="author">- James Hetfield</footer>
+        </div>
+      </div>
+    </div>
+
+    <div class="row text-center justify-content-center">
+      <div class="col  mb-3">
+        <button id="getQuote" style="color: white;background-color: #64b5f6; border-color: #64b5f6;" class="btn">
+        Get New Quote
+        </button>
+      </div>
+
+    </div>
+    <div class="row text-center justify-content-center">
+      <div class="col  mb-3">
+
+        <button id="sendTweet" style="color: white;background-color: #64b5f6; border-color: #64b5f6;" class="btn">
+        <i class="fa fa-twitter"></i>
+        </button>
+        </a>
+      </div>
+    </div>
+  </div>
+  <nav id="footer" class="navbar navbar-inverse text-center">
+    <p id="by">Web design by <a target="_blank" href="https://twitter.com/Systemallica">Systemallica</a></p> 
+  </nav>
+</body>
+
+</html>
