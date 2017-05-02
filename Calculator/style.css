@@ -1,0 +1,62 @@
+ html {
+   width: 100%;
+   height: 100%;
+   margin: 0px;
+   padding: 0px;
+   overflow-x: hidden;
+   min-width: 300px;
+ }
+#calculator{
+  background-color: #eeeeee;
+  border: 2px solid #ccc;
+  border-radius: 15px !important;
+}
+
+ body {
+   position: relative;   
+   font-family: Orbitron;
+ }
+#title{
+  
+}
+.containter{
+  background-color: red !important;
+}
+#calculator{
+  border-radius: 3px;
+}
+#screen1{
+  border-top: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+  border-left: 3px solid #ccc;
+  font-size: 1.7em;
+  background-color: #03b363;
+}
+#screen2{
+  color: #ccc;
+  border-bottom: 3px solid #ccc;
+  border-right: 3px solid #ccc;
+  border-left: 3px solid #ccc;
+  font-size: 1em;   
+  background-color: #03b363;
+}
+.btn{
+  border-radius: 0px;
+  font-size: 1.7em;  
+  border: 2px solid #ccc;
+ }
+#buttonEquals{
+  padding-top: 0px !important;
+  font-size: 35px;
+}
+#buttonDivide{
+  padding-top: 5px !important;
+  font-size: 30px;
+}
+#buttonPlusMinus{
+  padding-top: 0px !important;
+  font-size: 35px;
+}
+#buttonCE{
+  padding-left: 7px;
+}

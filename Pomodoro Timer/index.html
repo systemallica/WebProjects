@@ -1,0 +1,96 @@
+<head></head>
+<<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Felipa">
+
+  <script src="https://use.fontawesome.com/8e3630197f.js"></script>
+  <script src="https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">    
+  <script type="text/javascript" src="scripts.js"></script>
+  <h1 class="text-center mt-5">
+    Pomodoro Clock
+  </h1>
+</link>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center" id="main">
+        <div class="row mt-5 justify-content-center">
+          <div class="col-6 text-center" id="settingsTimer">
+            <p>
+              Countdown duration (minutes)
+            </p>
+            <div class="btn btn-custom" id="clockMinus">
+              <i aria-hidden="true" class="fa fa-minus"></i>
+            </div>
+            <div class="btn btn-custom" id="minutesSet">
+              25 
+            </div>
+            <div class="btn btn-custom" id="clockPlus">
+              <i aria-hidden="true" class="fa fa-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4 justify-content-center">
+          <div class="col-sm-6 text-center" id="settingsPause">
+            <p>
+              Pause duration (minutes)
+            </p>
+            <div class="btn btn-custom" id="pauseMinus">
+              <i aria-hidden="true" class="fa fa-minus"></i>
+            </div>
+            <div class="btn btn-custom" id="pauseSet">
+              5
+            </div>
+            <div class="btn btn-custom" id="pausePlus">
+              <i aria-hidden="true" class="fa fa-plus"></i>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 justify-content-center">
+          <div class="col-12 text-center">
+            <div class="btn btn-custom" id="pause">
+              Pause
+            </div>
+            <div class="btn btn-custom" id="start">
+              Start
+            </div>
+            <div class="btn btn-custom" id="reset">
+              Reset
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="circle-text " id="containerMinutes">
+              <div id="minutes">
+                25
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="circle-text" id="containerSeconds">
+              <div id="seconds">
+                00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3 justify-content-center">
+          <div class="col-10 text-center" id="codedBy">
+            <p id="author">
+              By <a href="https://github.com/systemallica"> Systemallica    
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

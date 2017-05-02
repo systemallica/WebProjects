@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  color: black;
+  background: white;
+  font-family: Monospace;
+}
+a{
+  color: black;
+}
+.circle-text {
+  width: 50%;
+}
+.circle-text:after {
+  content: "";
+  display: block;
+  margin: 50%;
+  width: 100%;
+  padding-bottom: 100%;
+  background: #cb2323;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.circle-text div {
+  float: left;
+  margin: 50%;
+  width: 100%;
+  padding-top: 50%;
+  line-height: 1em;
+  margin-top: -0.5em;
+  font-size: 3em !important;
+}
+
+.btn-custom {
+  background-color: #21e5b6;
+  border-color: #21e5b6;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #19d4a7;
+  border-color: #16bd95;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #21e5b6;
+  border-color: #21e5b6;
+}

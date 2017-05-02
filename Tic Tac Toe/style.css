@@ -1,0 +1,16 @@
+body{
+  font-family: Monospace;
+  background: #151515;
+  color: white;
+}
+.tile{
+  font-size: 9em;
+  min-height: 1.4em !important;
+  border: 1px solid black;
+}
+.tile1{ 
+  background: #5e73c3;
+}
+.tile2{
+  background: #2e51ac;
+}
