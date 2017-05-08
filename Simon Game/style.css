@@ -1,0 +1,95 @@
+body{
+  font-family: Monospace;
+}
+#turnBox{
+  height: 20px;
+}
+#strictMode{
+  color: white !important;
+  cursor: pointer; 
+  cursor: hand; 
+  height: 20px;
+  width: 70px;
+  margin-left: 30px;
+  background-color: #8F0000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+label{
+  cursor: pointer; 
+  cursor: hand; 
+  width: 70px !important;
+  margin-left: 30px;
+}
+#turnBox{
+  background-color: black;
+  font-family: Monospace;
+  color: white;
+  width: 70px;
+  margin-left: 30px;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+#start{
+  color: black;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+#menu{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  margin-top: 120px;
+  border: 10px solid #333333;
+  border-radius: 50%;
+  background-color: #333333;
+}
+#red{
+    cursor: pointer; 
+    cursor: hand; 
+    background-color: #8F0000;
+    width: 200px;
+    height: 200px; 
+    border: solid #333333;
+    border-width: 10px 5px 5px 10px;  
+    border-radius: 200px 0 0 0;
+    -moz-border-radius: 200px 0 0 0;
+    -webkit-border-radius: 200px 0 0 0;
+}
+#green{  
+  cursor: pointer; 
+  cursor: hand; 
+  background-color: #004D00;
+  width: 200px;
+  height: 200px; 
+  border: solid #333333;  
+  border-width: 10px 10px 5px 5px;
+  border-radius: 0 200px 0 0;
+  -moz-border-radius: 0 200px 0 0;
+  -webkit-border-radius: 0 200px 0 0;
+}
+#yellow{  
+  cursor: pointer; 
+  cursor: hand; 
+  background-color: #999900;
+  width: 200px;
+  height: 200px; 
+  border: solid #333333;
+  border-width: 5px 10px 10px 5px;
+  border-radius: 0 0 200px 0;
+  -moz-border-radius: 0 0 200px 0;
+  -webkit-border-radius: 0 0 200px 0;
+}
+#blue{
+  cursor: pointer; 
+  cursor: hand; 
+  background-color: #000066;
+  width: 200px;
+  height: 200px; 
+  border: solid #333333;
+  border-width: 5px 5px 10px 10px;
+  border-radius: 0 0 0 200px;
+  -moz-border-radius: 0 0 0 200px;
+  -webkit-border-radius: 0 0 0 200px;
+}

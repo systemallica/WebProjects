@@ -1,0 +1,60 @@
+
+<head>
+  <link href="https://cdn.jsdelivr.net/css-toggle-switch/latest/toggle-switch.css" rel="stylesheet" type="text/css" />
+
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Felipa">
+
+  <script src="https://use.fontawesome.com/8e3630197f.js"></script>
+  <script src="https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">    
+  <script type="text/javascript" src="scripts.js"></script>
+	<h1 class="text-center mt-5">
+	Tic Tac Toe
+	</h1>
+
+</head>
+<h1 class="text-center mt-5">
+  Simon Game
+</h1>
+<audio autostart="false" id="audioRed" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+<audio autostart="false" id="audioGreen" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+<audio autostart="false" id="audioBlue" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+<audio autostart="false" id="audioYellow" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+<div class="container-fluid">
+  <div class="row justify-content-center mt-3">
+    <div id="main">
+      <div class="row">
+        <div class="col-6" id="red"></div>
+        <div class="col-6" id="green"></div>
+      </div>
+      <div class="row">
+        <div class="col-6" id="blue"></div>
+        <div class="col-6" id="yellow"></div>
+      </div>
+    </div>
+    <div id="menu">
+      <div class="text-center" id="turnBox">
+        <span id="turnTag"></span><span id="turnNumber"></span>
+      </div>
+      <div class="btn btn-info disabled" id="start">
+        Play
+      </div>
+      <div class="text-center" id="strictMode">
+        Strict
+      </div>
+      <label class="switch-light" id="onBtn"><input type="checkbox" /><span class="card"><span>Off</span><span>On</span><a class="btn btn-info"></a></span></label>
+    </div>
+  </div>
+</div>
+<p class="mt-2 text-center" id="by">
+  by <a target="_blank" href="https://github.com/systemallica">Systemallica
+</p>
