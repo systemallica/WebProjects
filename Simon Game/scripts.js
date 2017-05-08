@@ -71,14 +71,14 @@ function redMouseDown() {
   if (gameOn) {
     $("#red").css("background-color", "red");
     redSound.play();
-
-    setTimeout(function() {
-      $("#red").css("background-color", "#8F0000");
-    }, 800);
-
+    
     if (gameStarted && humanTurn) {
       userTurn(0);
     }
+    
+    setTimeout(function() {
+      $("#red").css("background-color", "#8F0000");
+    }, 800);    
   }
 }
 //Green
@@ -86,14 +86,14 @@ function greenMouseDown() {
   if (gameOn) {
     $("#green").css("background-color", "#00B81F");
     greenSound.play();
-
-    setTimeout(function() {
-      $("#green").css("background-color", "#004D00");
-    }, 800);
-
+    
     if (gameStarted && humanTurn) {
       userTurn(1);
     }
+    
+    setTimeout(function() {
+      $("#green").css("background-color", "#004D00");
+    }, 800);    
   }
 }
 //Yellow
@@ -101,14 +101,14 @@ function yellowMouseDown() {
   if (gameOn) {
     $("#yellow").css("background-color", "yellow");
     yellowSound.play();
-
-    setTimeout(function() {
-      $("#yellow").css("background-color", "#999900");
-    }, 800);
-
+    
     if (gameStarted && humanTurn) {
       userTurn(2);
     }
+    
+    setTimeout(function() {
+      $("#yellow").css("background-color", "#999900");
+    }, 800);    
   }
 }
 //Blue
@@ -116,14 +116,14 @@ function blueMouseDown() {
   if (gameOn) {
     $("#blue").css("background-color", "blue");
     blueSound.play();
-
-    setTimeout(function() {
-      $("#blue").css("background-color", "#000066");
-    }, 800);
-
+    
     if (gameStarted && humanTurn) {
       userTurn(3);
     }
+    
+    setTimeout(function() {
+      $("#blue").css("background-color", "#000066");
+    }, 800);    
   }
 }
 
@@ -185,7 +185,7 @@ function machineTurn() {
 function userTurn(index) {
   if (userArr.length < turn) {
     userArr.push(index);
-    if (areEqual()) {
+    if (isCorrect()) {
       if (turn == 20 && click == 20) {
         reset();
         $("#turnTag").html("You win!");
@@ -230,10 +230,9 @@ function activateColor(index) {
   }
 }
 
-function areEqual() {
+function isCorrect() {
   let result = false;
   for (let i = 0; i < userArr.length; i++) {
-    console.log(randomArr[i], userArr[i]);
     if (userArr[i] === randomArr[i]) {
       result = true;
     } else {
